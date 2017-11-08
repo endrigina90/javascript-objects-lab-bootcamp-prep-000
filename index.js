@@ -14,6 +14,6 @@ function deleteFromObjectByKey(object, key) {
 return delete recipes[key]
 }
 function deleteFromObjectByKey(object, key) {
-var recipes = recipes[key]
+recipes = recipes[key]
 return recipes
 }
