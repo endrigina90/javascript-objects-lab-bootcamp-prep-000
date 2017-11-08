@@ -15,5 +15,5 @@ return delete recipes[key]
 }
 function destructivelyDeleteFromObjectByKey(recipes,ket) {
 delete recipes[key]
- return Object.assign({}, recipes, {[key]:value} )
+ return Object.assign(recipes, {[key]:value} )
 }
