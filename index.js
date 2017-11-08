@@ -11,6 +11,5 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes,key,value) {
   return Object.assign(recipes, {[key]:value})
 }
 function deleteFromObjectByKey(object, key) {
-delete recipes[key]
-return recipes
+return delete recipes[key]
 }
